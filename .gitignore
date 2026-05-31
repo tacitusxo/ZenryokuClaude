@@ -1,0 +1,32 @@
+# 実データ（個人情報・財務情報）
+accounting.db
+*.db
+
+# 銀行・カード会社からダウンロードした実CSV
+Epos/処理済み/*.csv
+JCB/処理済み/*.csv
+PayPay/処理済み/*.csv
+SBI証券/処理済み/*.csv
+Upsider/処理済み/*.csv
+Wise/処理済み/*.csv
+個人立替/処理済み/*.csv
+旅費/処理済み/*.csv
+
+# 変換済み出力CSV（処理済みデータ）
+*/出力ファイル/*.csv
+
+# 入力待ちCSV（各口座ルート直下）
+Epos/*.csv
+JCB/*.csv
+PayPay/*.csv
+SBI証券/*.csv
+Upsider/*.csv
+Wise/*.csv
+個人立替/*.csv
+
+# 領収書PDF
+領収書/**/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
